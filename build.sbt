@@ -9,7 +9,8 @@ scalaVersion := "2.11.6"
 libraryDependencies ++= Seq(
   javaJdbc,
   cache,
-  javaWs
+  javaWs,
+  "org.webjars" % "select2" % "3.5.2-1"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
